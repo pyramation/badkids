@@ -1,7 +1,7 @@
 import { SigningCosmWasmClient } from '@cosmjs/cosmwasm-stargate';
 import { useChain } from '@cosmos-kit/react';
 import { useRef } from 'react';
-import { contracts } from 'stargazejs';
+import { contracts } from 'badkidsjs';
 import { chainName, marketplaceContract } from '../config';
 
 export const useClient = () => {

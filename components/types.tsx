@@ -5,12 +5,12 @@ import {
   MintCountResponse,
   MintableNumTokensResponse,
   MintPriceResponse,
-} from 'stargazejs/types/codegen/VendingMinter.types';
-import { ConfigResponse as WhitelistConfigResponse } from 'stargazejs/types/codegen/Whitelist.types';
+} from 'badkidsjs/types/codegen/VendingMinter.types';
+import { ConfigResponse as WhitelistConfigResponse } from 'badkidsjs/types/codegen/Whitelist.types';
 import {
   ContractInfoResponse,
   CollectionInfoResponse,
-} from 'stargazejs/types/codegen/SG721Base.types';
+} from 'badkidsjs/types/codegen/SG721Base.types';
 
 export interface ChooseChainInfo {
   chainName: string;

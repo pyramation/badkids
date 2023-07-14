@@ -8,7 +8,7 @@ import { wallets as leapWallets } from '@cosmos-kit/leap';
 import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 
 import { chains, assets } from 'chain-registry';
-import { getSigningCosmosClientOptions } from 'stargazejs';
+import { getSigningCosmosClientOptions } from 'badkidsjs';
 import { GasPrice } from '@cosmjs/stargate';
 
 import { SignerOptions } from '@cosmos-kit/core';

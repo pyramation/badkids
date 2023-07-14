@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js';
-import { Coin } from 'stargazejs/types/codegen/Marketplace.types';
+import { Coin } from 'badkidsjs/types/codegen/Marketplace.types';
 import { coin, exponent } from '../config';
 
 export const toDisplayAmount = (

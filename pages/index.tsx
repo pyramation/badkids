@@ -20,9 +20,9 @@ import { ArrowForwardIcon } from '@chakra-ui/icons';
 import { Product, Dependency, handleChangeColorModeValue } from '../components';
 
 const library = {
-  title: 'StargazeJS',
-  text: 'Typescript libraries for the Stargaze ecosystem',
-  href: 'https://github.com/cosmology-tech/stargazejs',
+  title: 'BadKidsJS',
+  text: 'Typescript libraries for the BadKids ecosystem',
+  href: 'https://github.com/pyramation/badkidsjs',
 };
 
 export default function Home() {

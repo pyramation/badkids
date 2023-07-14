@@ -1,10 +1,10 @@
-import { cosmos } from 'stargazejs';
+import { cosmos } from 'badkidsjs';
 import { isDeliverTxSuccess, StdFee, coins } from '@cosmjs/stargate';
 import { useToaster, ToastType, type CustomToast } from 'hooks/useToaster';
 import { useChain } from '@cosmos-kit/react';
 import { chainName, coin } from 'config';
 import { SigningCosmWasmClient } from '@cosmjs/cosmwasm-stargate';
-import { TxRaw } from 'stargazejs/types/codegen/cosmos/tx/v1beta1/tx';
+import { TxRaw } from 'badkidsjs/types/codegen/cosmos/tx/v1beta1/tx';
 import { ToastId } from '@chakra-ui/react';
 
 interface Msg {

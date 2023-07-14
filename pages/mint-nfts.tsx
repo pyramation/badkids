@@ -24,9 +24,9 @@ import {
 } from '../components';
 
 const library = {
-  title: 'StargazeJS',
-  text: 'Typescript libraries for the Stargaze ecosystem',
-  href: 'https://github.com/cosmology-tech/stargazejs',
+  title: 'BadKidsJs',
+  text: 'Typescript libraries for the BadKids ecosystem',
+  href: 'https://github.com/pyramation/badkidsjs',
 };
 
 export default function Home() {

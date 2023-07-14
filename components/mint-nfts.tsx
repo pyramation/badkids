@@ -14,7 +14,7 @@ import BigNumber from 'bignumber.js';
 import React, { useEffect, useRef, useState } from 'react';
 import { HiOutlineClock } from 'react-icons/hi';
 import { LargeButton } from 'components/base';
-import { contracts, stargaze } from 'stargazejs';
+import { contracts, stargaze } from 'badkidsjs';
 import { useChain } from '@cosmos-kit/react';
 import {
   chainName,
