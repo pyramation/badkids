@@ -2083,7 +2083,7 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.29.23.tgz#a38f0efcc4abd5849222a7f382ce3a19a9efb070"
   integrity sha512-4BMHPrkfYmLP+NvqbbkV7Mk1nnphu+bNmxhhuB0+EMjKA7VfyFCfiyiTf55RRDgLaevyb9LrFK16lHW2owF52w==
 
-"@tanstack/react-query@^4.29.23":
+"@tanstack/react-query@4.29.23", "@tanstack/react-query@^4.29.23":
   version "4.29.23"
   resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.29.23.tgz#aee47562a59c1dc0f69a9e3abc5ece8a3afb9e32"
   integrity sha512-u59dPBJHeyeRDSrHN3M8FT65yZDT0uPlaFDFd4K2wmDreHguRlk9t578X+cp1Cj+4oksQCE+wv09A5ZH7Odx6g==
@@ -2724,10 +2724,10 @@ babel-plugin-macros@^3.1.0:
     cosmiconfig "^7.0.0"
     resolve "^1.19.0"
 
-badkidsjs@^1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/badkidsjs/-/badkidsjs-1.4.2.tgz#971667eebbee8e7f34dd21bd5a3591a39e4d2263"
-  integrity sha512-dgqXdoi2PwH2NFo5u1OZ5f9PCy2M3uEkjnz5a8c7jnVgvp6QG0klU60DD3xSoL4fvIsl6Vd1Pndgsrbr1iC2pQ==
+badkidsjs@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/badkidsjs/-/badkidsjs-1.5.0.tgz#102d242f75af7d4b56fcbc9422f25a623fb755b7"
+  integrity sha512-posgE0pzQWlCN0LfpJkRUj8yEVtihwsrwirjORtOFBC08BV0jvqIbaAPciA5HBhXPM5hq/jV15/fJiQmnTIFFw==
   dependencies:
     "@babel/runtime" "^7.19.4"
     "@cosmjs/amino" "0.29.5"
@@ -2736,7 +2736,10 @@ badkidsjs@^1.4.2:
     "@cosmjs/stargate" "0.29.5"
     "@cosmjs/tendermint-rpc" "^0.29.5"
     "@osmonauts/lcd" "0.8.0"
+    "@tanstack/react-query" "4.29.23"
     protobufjs "^6.11.2"
+    react "18.2.0"
+    react-dom "18.2.0"
 
 balanced-match@^1.0.0:
   version "1.0.2"

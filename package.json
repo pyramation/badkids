@@ -23,7 +23,7 @@
     "@emotion/react": "11.10.6",
     "@emotion/styled": "11.10.6",
     "@tanstack/react-query": "^4.29.23",
-    "badkidsjs": "^1.4.2",
+    "badkidsjs": "^1.5.0",
     "bignumber.js": "9.1.0",
     "chain-registry": "1.17.1",
     "dayjs": "1.11.8",
