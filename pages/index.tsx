@@ -18,7 +18,6 @@ import { dependencies, products } from '../config';
 import NextLink from 'next/link';
 import { ArrowForwardIcon } from '@chakra-ui/icons';
 import { Product, Dependency, handleChangeColorModeValue } from '../components';
-import { useContracts } from 'badkidsjs';
 
 const library = {
   title: 'BadKidsJS',
